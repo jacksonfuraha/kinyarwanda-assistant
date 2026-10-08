@@ -1,0 +1,6 @@
+# Local use: python app.py, plus training and evaluation tools
+-r requirements.txt
+gradio>=5
+scikit-learn
+sacrebleu
+matplotlib

@@ -1,0 +1,15 @@
+{
+  "translation_en_rw": "Helsinki-NLP/opus-mt-en-rw",
+  "translation_rw_en": "Helsinki-NLP/opus-mt-rw-en",
+  "tts_model": "facebook/mms-tts-kin",
+  "asr_model": "facebook/mms-1b-all",
+  "asr_lang": "kin",
+  "use_asr": true,
+  "num_beams": 4,
+  "max_new_tokens": 64,
+  "male_pitch_steps": -4,
+  "weights": {"acoustic": 0.3, "phoneme": 0.3, "model": 0.4},
+  "calibration": {"floor": 0.10, "ceil": 0.60},
+  "mastered_threshold": 80,
+  "levels": {"intermediate_at": 7, "advanced_at": 14}
+}

@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+cache/
+progress.json
+dataset/
+results.json
+.env
+*.token
